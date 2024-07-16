@@ -45,6 +45,7 @@ body {
 }
 
 .hero-main-text {
+    width: 80%;
     font-size: 60px;
     font-weight: 700;
     color: #f9faf8;
@@ -68,13 +69,6 @@ body {
     border: none;
 }
 
-.imgph {
-    flex-basis: 100%;
-    color: #f9faf8;
-    background-color: #e7e5eb;
-    text-align: center;
-}
-
 .content {
     display: flex;
     flex-direction: column;
@@ -96,7 +90,7 @@ body {
     margin-bottom: 100px;
 }
 
-.imgph2 {
+.imgph2 img {
     height: 210px;
     width: 210px;
     border-radius: 10px;
