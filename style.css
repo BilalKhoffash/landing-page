@@ -168,3 +168,12 @@ body {
     cursor: pointer;
     border: solid white 2px;
 }
+
+.footerlast {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    color: #f9faf8;
+}
