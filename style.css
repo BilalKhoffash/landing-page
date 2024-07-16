@@ -110,3 +110,21 @@ body {
     font-size: 22px;
     margin-top: 10px;
 }
+
+.quote {
+    padding: 150px 450px;
+    background-color: #e7e5eb;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.philosopher {
+    text-align: right;
+    font-size: 36px;
+    font-weight: 800;
+}
