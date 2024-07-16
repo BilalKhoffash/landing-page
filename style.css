@@ -72,3 +72,41 @@ body {
     background-color: #e7e5eb;
     text-align: center;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorcontent {
+    color: #1f2937;
+    font-size: 36pt;
+    font-weight: 700;
+    margin-top: 40px;  
+    margin-bottom: 40px;  
+}
+
+.maincontent {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+
+.imgph2 {
+    height: 210px;
+    width: 210px;
+    border-radius: 10px;
+    border: solid blue 3px;
+}
+
+.item {
+    width: 210px;
+    text-align: center;
+}
+
+.itemtext {
+    font-size: 22px;
+    margin-top: 10px;
+}
