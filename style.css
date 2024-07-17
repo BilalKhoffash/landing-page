@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 10px 350px 150px;
+    padding: 10px 15% 150px;
 }
 
 .header {
@@ -37,11 +37,12 @@ body {
 
 .start-info {
     display: flex;
+    flex-wrap: wrap;    
+    padding: 16px;
 }
 
 .hero {
-    padding: 16px;
-    flex-basis: 100%;
+    flex-basis: 50%;
 }
 
 .hero-main-text {
@@ -58,6 +59,16 @@ body {
     font-size: 18px;
 }
 
+.fill {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.fill img {
+    width: 100%;
+}
+
 .signup1, .button-style {
     font-size: 24px;
     background-color: #3882F6;
@@ -69,6 +80,7 @@ body {
 
 .button-style {
     margin-top: 20px;
+    margin-bottom: 20px;
     border: none;
 }
 
@@ -88,8 +100,9 @@ body {
 }
 
 .maincontent {
+    flex-wrap: wrap;
     display: flex;
-    gap: 80px;
+    gap: 30px;
     margin-bottom: 100px;
 }
 
@@ -103,6 +116,7 @@ body {
 .item {
     width: 210px;
     text-align: center;
+    margin-left: 50px;
 }
 
 .itemtext {
